@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Roco Painting and Services - Professional painting and floor restoration for homes, villas, warehouses and commercial spaces in Miami. Guaranteed professional quality. | Expertos en pintura y restauración de pisos, chalets, naves y espacios comerciales en Miami. Calidad profesional garantizada.">
+    <meta name="keywords" content="painting, restoration, floors, villas, warehouses, commercial spaces, Miami, residential painting, commercial painting, pintura, restauración, pisos, chalets, naves, espacios comerciales">
+    <meta name="author" content="Christian Herencia">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0052CC">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rocopainting.com/">
+    <meta property="og:title" content="Roco Painting and Services | Professional Painting & Restoration in Miami">
+    <meta property="og:description" content="Professional painting and restoration services in Miami. Quality guaranteed for residential and commercial. | Servicios profesionales de pintura y restauración en Miami.">
+    <meta property="og:image" content="images/logotipo.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="es_ES">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Roco Painting and Services | Professional Painting & Restoration in Miami">
+    <meta property="twitter:description" content="Professional painting and restoration services in Miami. Quality guaranteed. | Servicios profesionales de pintura y restauración en Miami.">
+    
+    <title>Roco Painting and Services | Professional Painting & Restoration in Miami</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="images/logotipo.jpg" alt="Roco Painting and Services - Logo" class="logo-img">
+            </a>
+            
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link" data-en="Home" data-es="Inicio">Home</a></li>
+                    <li><a href="#catalogo" class="nav-link" data-en="Portfolio" data-es="Catálogo">Portfolio</a></li>
+                    <li><a href="#servicios" class="nav-link" data-en="Services" data-es="Servicios">Services</a></li>
+                    <li><a href="#nosotros" class="nav-link" data-en="About Us" data-es="Quiénes Somos">About Us</a></li>
+                    <li><a href="#contacto" class="nav-link" data-en="Contact" data-es="Contacto">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <button class="lang-switcher" id="langSwitcher" aria-label="Switch language">
+                    <span class="lang-current">EN</span>
+                    <span class="lang-arrow">⇄</span>
+                    <span class="lang-other">ES</span>
+                </button>
+                <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section / Inicio -->
+        <section class="hero" id="inicio">
+            <div class="hero-overlay"></div>
+            
+            <!-- Carousel / Slider -->
+            <div class="hero-carousel">
+                <div class="carousel-track" id="carouselTrack">
+                    <div class="carousel-slide active">
+                        <div class="slide-bg" style="background-image: url('images/52749986_295285694488205_4228744737156235264_n.jpg')"></div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide-bg" style="background-image: url('images/52864525_295285787821529_2765740500882292736_n.jpg')"></div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide-bg" style="background-image: url('images/57246988_314367789246662_3614590282416259072_n.jpg')"></div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide-bg" style="background-image: url('images/59990872_326248981391876_4525847046862667776_n.jpg')"></div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide-bg" style="background-image: url('images/60243136_326248941391880_5958265931963564032_n.jpg')"></div>
+                    </div>
+                </div>
+                
+                <!-- Carousel Controls -->
+                <button class="carousel-control prev" id="carouselPrev" aria-label="Previous slide">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M15 18l-6-6 6-6"/>
+                    </svg>
+                </button>
+                <button class="carousel-control next" id="carouselNext" aria-label="Next slide">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 18l6-6-6-6"/>
+                    </svg>
+                </button>
+                
+                <!-- Carousel Indicators -->
+                <div class="carousel-indicators" id="carouselIndicators">
+                    <button class="indicator active" data-slide="0" aria-label="Slide 1"></button>
+                    <button class="indicator" data-slide="1" aria-label="Slide 2"></button>
+                    <button class="indicator" data-slide="2" aria-label="Slide 3"></button>
+                    <button class="indicator" data-slide="3" aria-label="Slide 4"></button>
+                    <button class="indicator" data-slide="4" aria-label="Slide 5"></button>
+                </div>
+            </div>
+            
+            <div class="container hero-content">
+                <h1 class="hero-title" data-en="Transform Your Space with Professional Painting" data-es="Transforma Tu Espacio con Pintura Profesional">Transform Your Space with Professional Painting</h1>
+                <p class="hero-subtitle" data-en="Experts in painting and restoration for homes, villas, warehouses and commercial spaces in Miami" data-es="Expertos en pintura y restauración de pisos, chalets, naves y espacios comerciales en Miami">Experts in painting and restoration for homes, villas, warehouses and commercial spaces in Miami</p>
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn btn-primary" data-en="Get Quote" data-es="Solicitar Presupuesto">Get Quote</a>
+                    <a href="#catalogo" class="btn btn-outline" data-en="View Portfolio" data-es="Ver Portafolio">View Portfolio</a>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <span class="scroll-text" data-en="Scroll" data-es="Desplazar">Scroll</span>
+                <div class="scroll-arrow"></div>
+            </div>
+        </section>
+
+        <!-- Services Section / Servicios -->
+        <section class="section services" id="servicios">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-en="Our Services" data-es="Nuestros Servicios">Nuestros Servicios</h2>
+                    <p class="section-subtitle" data-en="Professional solutions for every space" data-es="Soluciones profesionales para cada espacio">Soluciones profesionales para cada espacio</p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 32L32 8L56 32V56H8V32Z" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <path d="M32 8V32" stroke="currentColor" stroke-width="2"/>
+                                <rect x="20" y="40" width="12" height="16" fill="currentColor" opacity="0.3"/>
+                                <rect x="32" y="40" width="12" height="16" fill="currentColor" opacity="0.3"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title" data-en="Residential Painting" data-es="Pintura Residencial">Pintura Residencial</h3>
+                        <p class="service-desc" data-en="Complete painting services for homes and villas. Interior and exterior with premium finishes." data-es="Servicio completo de pintura para hogares y chalets. Interior y exterior con acabados premium.">Servicio completo de pintura para hogares y chalets. Interior y exterior con acabados premium.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="12" y="20" width="40" height="36" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <path d="M8 32L32 8L56 32" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <rect x="26" y="40" width="12" height="16" fill="currentColor" opacity="0.3"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title" data-en="Commercial Painting" data-es="Pintura Comercial">Pintura Comercial</h3>
+                        <p class="service-desc" data-en="Warehouses, offices and commercial spaces. Durable finishes for high traffic areas." data-es="Naves, oficinas y espacios comerciales. Acabados duraderos para áreas de alto tráfico.">Naves, oficinas y espacios comerciales. Acabados duraderos para áreas de alto tráfico.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="32" cy="32" r="20" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <path d="M32 12V20M32 44V52M12 32H20M44 32H52" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="32" cy="32" r="8" fill="currentColor" opacity="0.3"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title" data-en="Floor Restoration" data-es="Restauración de Pisos">Restauración de Pisos</h3>
+                        <p class="service-desc" data-en="Specialized restoration for all types of floors. Bring your floors back to life." data-es="Restauración especializada para todo tipo de pisos. Devuelve la vida a tus pisos.">Restauración especializada para todo tipo de pisos. Devuelve la vida a tus pisos.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 48V28L32 16L48 28V48" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <rect x="24" y="36" width="16" height="12" fill="currentColor" opacity="0.3"/>
+                                <path d="M8 52H56" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title" data-en="Villa Restoration" data-es="Restauración de Chalets">Restauración de Chalets</h3>
+                        <p class="service-desc" data-en="Complete restoration for luxury villas. Attention to every detail with premium materials." data-es="Restauración completa para chalets de lujo. Atención a cada detalle con materiales premium.">Restauración completa para chalets de lujo. Atención a cada detalle con materiales premium.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section / Catálogo -->
+        <section class="section portfolio" id="catalogo">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-en="Portfolio" data-es="Portafolio">Portafolio</h2>
+                    <p class="section-subtitle" data-en="Discover our latest projects" data-es="Descubre nuestros últimos proyectos">Descubre nuestros últimos proyectos</p>
+                </div>
+                
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all" data-en="All" data-es="Todos">Todos</button>
+                    <button class="filter-btn" data-filter="bedroom" data-en="Bedroom" data-es="Dormitorio">Dormitorio</button>
+                    <button class="filter-btn" data-filter="living" data-en="Living" data-es="Sala">Sala</button>
+                    <button class="filter-btn" data-filter="dining" data-en="Dining" data-es="Comedor">Comedor</button>
+                    <button class="filter-btn" data-filter="office" data-en="Office" data-es="Oficina">Oficina</button>
+                    <button class="filter-btn" data-filter="bathroom" data-en="Bathroom" data-es="Baño">Baño</button>
+                    <button class="filter-btn" data-filter="facade" data-en="Facade" data-es="Fachada">Fachada</button>
+                    <button class="filter-btn" data-filter="commercial" data-en="Commercial" data-es="Comercial">Comercial</button>
+                    <button class="filter-btn" data-filter="floor" data-en="Floor" data-es="Pisos">Pisos</button>
+                </div>
+                
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="living">
+                        <img src="images/52749986_295285694488205_4228744737156235264_n.jpg" alt="Proyecto de sala - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Living Room" data-es="Sala de Estar">Sala de Estar</span>
+                            <h4 class="portfolio-title" data-en="Modern Living Space" data-es="Espacio Moderno">Espacio Moderno</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="bedroom">
+                        <img src="images/52803703_295285654488209_6676089700249239552_n.jpg" alt="Proyecto de dormitorio - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Bedroom" data-es="Dormitorio">Dormitorio</span>
+                            <h4 class="portfolio-title" data-en="Cozy Bedroom" data-es="Dormitorio Acogedor">Dormitorio Acogedor</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="dining">
+                        <img src="images/52864525_295285787821529_2765740500882292736_n.jpg" alt="Proyecto de comedor - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Dining Room" data-es="Comedor">Comedor</span>
+                            <h4 class="portfolio-title" data-en="Elegant Dining" data-es="Comedor Elegante">Comedor Elegante</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="office">
+                        <img src="images/52893280_295285607821547_1805533779415007232_n.jpg" alt="Proyecto de oficina - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Office" data-es="Oficina">Oficina</span>
+                            <h4 class="portfolio-title" data-en="Professional Office" data-es="Oficina Profesional">Oficina Profesional</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="living">
+                        <img src="images/53305584_295285747821533_1596328877364346880_n.jpg" alt="Proyecto de sala - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Living Room" data-es="Sala de Estar">Sala de Estar</span>
+                            <h4 class="portfolio-title" data-en="Contemporary Living" data-es="Sala Contemporánea">Sala Contemporánea</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="bedroom">
+                        <img src="images/56673192_311549536195154_6824831822233337856_n.jpg" alt="Proyecto de dormitorio - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Bedroom" data-es="Dormitorio">Dormitorio</span>
+                            <h4 class="portfolio-title" data-en="Master Suite" data-es="Suite Principal">Suite Principal</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="dining">
+                        <img src="images/57246988_314367789246662_3614590282416259072_n.jpg" alt="Proyecto de comedor - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Dining Room" data-es="Comedor">Comedor</span>
+                            <h4 class="portfolio-title" data-en="Luxury Dining" data-es="Comedor de Lujo">Comedor de Lujo</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="office">
+                        <img src="images/57262888_314367825913325_1729539302389448704_n.jpg" alt="Proyecto de oficina - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Office" data-es="Oficina">Oficina</span>
+                            <h4 class="portfolio-title" data-en="Executive Office" data-es="Oficina Ejecutiva">Oficina Ejecutiva</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="living">
+                        <img src="images/57408077_314367752579999_297429861092294656_n.jpg" alt="Proyecto de sala - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Living Room" data-es="Sala de Estar">Sala de Estar</span>
+                            <h4 class="portfolio-title" data-en="Open Concept" data-es="Concepto Abierto">Concepto Abierto</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="bedroom">
+                        <img src="images/59990872_326248981391876_4525847046862667776_n.jpg" alt="Proyecto de dormitorio - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Bedroom" data-es="Dormitorio">Dormitorio</span>
+                            <h4 class="portfolio-title" data-en="Guest Room" data-es="Habitación de Huéspedes">Habitación de Huéspedes</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="dining">
+                        <img src="images/60243136_326248941391880_5958265931963564032_n.jpg" alt="Proyecto de comedor - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Dining Room" data-es="Comedor">Comedor</span>
+                            <h4 class="portfolio-title" data-en="Family Dining" data-es="Comedor Familiar">Comedor Familiar</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="office">
+                        <img src="images/office1.jpg" alt="Proyecto de oficina - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Office" data-es="Oficina">Oficina</span>
+                            <h4 class="portfolio-title" data-en="Home Office" data-es="Oficina en Casa">Oficina en Casa</h4>
+                        </div>
+                    </div>
+
+                    <!-- Bathroom / Baño -->
+                    <div class="portfolio-item" data-category="bathroom">
+                        <img src="images/60322131_327127561304018_7011230027035443200_n.jpg" alt="Proyecto de baño - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Bathroom" data-es="Baño">Baño</span>
+                            <h4 class="portfolio-title" data-en="Modern Bathroom" data-es="Baño Moderno">Baño Moderno</h4>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="bathroom">
+                        <img src="images/60331986_327127447970696_4251605254639976448_n.jpg" alt="Proyecto de baño - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Bathroom" data-es="Baño">Baño</span>
+                            <h4 class="portfolio-title" data-en="Luxury Bath" data-es="Baño de Lujo">Baño de Lujo</h4>
+                        </div>
+                    </div>
+
+                    <!-- Facade / Fachada -->
+                    <div class="portfolio-item" data-category="facade">
+                        <img src="images/fachada.jpg" alt="Proyecto de fachada - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Facade" data-es="Fachada">Fachada</span>
+                            <h4 class="portfolio-title" data-en="Modern Facade" data-es="Fachada Moderna">Fachada Moderna</h4>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="facade">
+                        <img src="images/fachada2.jpg" alt="Proyecto de fachada - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Facade" data-es="Fachada">Fachada</span>
+                            <h4 class="portfolio-title" data-en="Villa Exterior" data-es="Exterior de Chalet">Exterior de Chalet</h4>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="facade">
+                        <img src="images/60348732_327127367970704_8015912165644959744_n.jpg" alt="Proyecto de fachada - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Facade" data-es="Fachada">Fachada</span>
+                            <h4 class="portfolio-title" data-en="Residential Exterior" data-es="Exterior Residencial">Exterior Residencial</h4>
+                        </div>
+                    </div>
+
+                    <!-- Commercial / Comercial -->
+                    <div class="portfolio-item" data-category="commercial">
+                        <img src="images/60431784_329900571026717_6828838790497304576_n.jpg" alt="Proyecto comercial - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Commercial" data-es="Comercial">Comercial</span>
+                            <h4 class="portfolio-title" data-en="Office Space" data-es="Espacio de Oficina">Espacio de Oficina</h4>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="commercial">
+                        <img src="images/60444553_329900497693391_1551509944442814464_n.jpg" alt="Proyecto comercial - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Commercial" data-es="Comercial">Comercial</span>
+                            <h4 class="portfolio-title" data-en="Retail Space" data-es="Espacio Comercial">Espacio Comercial</h4>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="commercial">
+                        <img src="images/60474387_329900744360033_5932092809283633152_n.jpg" alt="Proyecto comercial - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Commercial" data-es="Comercial">Comercial</span>
+                            <h4 class="portfolio-title" data-en="Business Center" data-es="Centro Empresarial">Centro Empresarial</h4>
+                        </div>
+                    </div>
+
+                    <!-- Floor / Pisos -->
+                    <div class="portfolio-item" data-category="floor">
+                        <img src="images/60525236_329900714360036_4735747892529070080_n.jpg" alt="Proyecto de pisos - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Floor" data-es="Pisos">Pisos</span>
+                            <h4 class="portfolio-title" data-en="Polished Floor" data-es="Piso Pulido">Piso Pulido</h4>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="floor">
+                        <img src="images/60539134_329900467693394_2188635159887085568_n.jpg" alt="Proyecto de pisos - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Floor" data-es="Pisos">Pisos</span>
+                            <h4 class="portfolio-title" data-en="Marble Floor" data-es="Piso de Mármol">Piso de Mármol</h4>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="floor">
+                        <img src="images/piso1.jpg" alt="Proyecto de pisos - Roco Painting">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category" data-en="Floor" data-es="Pisos">Pisos</span>
+                            <h4 class="portfolio-title" data-en="Restored Floor" data-es="Piso Restaurado">Piso Restaurado</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section / Quiénes Somos -->
+        <section class="section about" id="nosotros">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-en="About Us" data-es="Quiénes Somos">Quiénes Somos</h2>
+                    <p class="section-subtitle" data-en="Our story and commitment to excellence" data-es="Nuestra historia y compromiso con la excelencia">Nuestra historia y compromiso con la excelencia</p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3 class="about-heading" data-en="Roco Painting and Services" data-es="Roco Painting and Services">Roco Painting and Services</h3>
+                        <p class="about-paragraph" data-en="With years of experience in the painting and restoration industry, Roco Painting and Services has become a trusted name in Miami for residential and commercial projects." data-es="Con años de experiencia en la industria de pintura y restauración, Roco Painting and Services se ha convertido en un nombre de confianza en Miami para proyectos residenciales y comerciales.">Con años de experiencia en la industria de pintura y restauración, Roco Painting and Services se ha convertido en un nombre de confianza en Miami para proyectos residenciales y comerciales.</p>
+                        <p class="about-paragraph" data-en="Our team of skilled professionals is dedicated to delivering exceptional results on every project, from small residential jobs to large commercial complexes. We pride ourselves on attention to detail, quality materials, and customer satisfaction." data-es="Nuestro equipo de profesionales calificados se dedica a ofrecer resultados excepcionales en cada proyecto, desde trabajos residenciales pequeños hasta grandes complejos comerciales. Nos enorgullece la atención al detalle, los materiales de calidad y la satisfacción del cliente.">Nuestro equipo de profesionales calificados se dedica a ofrecer resultados excepcionales en cada proyecto, desde trabajos residenciales pequeños hasta grandes complejos comerciales. Nos enorgullece la atención al detalle, los materiales de calidad y la satisfacción del cliente.</p>
+                        
+                        <div class="about-info">
+                            <div class="info-item">
+                                <span class="info-icon">📍</span>
+                                <div class="info-content">
+                                    <strong data-en="Address" data-es="Dirección">Dirección</strong>
+                                    <p>915 NW 1st Ave H1714, Miami, FL, United States</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-icon">📞</span>
+                                <div class="info-content">
+                                    <strong data-en="Phone" data-es="Teléfono">Teléfono</strong>
+                                    <p><a href="tel:+13057137240">+1 305-713-7240</a></p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-icon">🕐</span>
+                                <div class="info-content">
+                                    <strong data-en="Hours" data-es="Horario">Horario</strong>
+                                    <p data-en="Monday - Friday: 8:00 AM - 6:00 PM" data-es="Lunes - Viernes: 8:00 AM - 6:00 PM">Lunes - Viernes: 8:00 AM - 6:00 PM</p>
+                                    <p data-en="Saturday: 9:00 AM - 2:00 PM" data-es="Sábado: 9:00 AM - 2:00 PM">Sábado: 9:00 AM - 2:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-image">
+                        <img src="images/pintor.jpg" alt="Roco Painting and Services - Equipo de trabajo" class="about-img">
+                        <p class="image-caption" data-en="Our team committed to excellence" data-es="Nuestro equipo comprometido con la excelencia">Nuestro equipo comprometido con la excelencia</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section / Contacto -->
+        <section class="section contact" id="contacto">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-en="Contact" data-es="Contacto">Contacto</h2>
+                    <p class="section-subtitle" data-en="Get in touch with us" data-es="Ponte en contacto con nosotros">Ponte en contacto con nosotros</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="contact-detail">
+                                <h4 data-en="Address" data-es="Dirección">Dirección</h4>
+                                <p>915 NW 1st Ave H1714<br>Miami, FL 33136<br>United States</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-detail">
+                                <h4 data-en="Phone" data-es="Teléfono">Teléfono</h4>
+                                <p><a href="tel:+13057137240">+1 305-713-7240</a></p>
+                                <p class="contact-note" data-en="Click to call" data-es="Clic para llamar">Clic para llamar</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="4" width="20" height="16" rx="2"/>
+                                    <path d="M22 7l-10 7L2 7"/>
+                                </svg>
+                            </div>
+                            <div class="contact-detail">
+                                <h4 data-en="Email" data-es="Correo">Correo</h4>
+                                <p><a href="mailto:info@rocopainting.com">info@rocopainting.com</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <h4 data-en="Follow Us" data-es="Síguenos">Síguenos</h4>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/roconstruc/" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                    </svg>
+                                </a>
+                                <a href="https://wa.me/+13057137240" target="_blank" rel="noopener" class="social-link" aria-label="WhatsApp">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                                    </svg>
+                                </a>
+                                <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-map">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3599.567890123456!2d-80.1955!3d25.7823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b6897a0e0e0e%3A0x0e0e0e0e0e0e0e0e!2s915%20NW%201st%20Ave%20H1714%2C%20Miami%2C%20FL%2033136!5e0!3m2!1ses!2sus!4v1234567890" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0; min-height: 300px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Mapa de contacto">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="images/logotipo.jpg" alt="Roco Painting and Services - Logo" class="footer-logo-img">
+                    <p class="footer-tagline" data-en="Transforming spaces, creating dreams" data-es="Transformando espacios, creando sueños">Transforming spaces, creating dreams</p>
+                    
+                    <div class="footer-about">
+                        <p data-en="With over 15 years of experience, Roco Painting and Services has become Miami's trusted partner for residential and commercial painting solutions. We bring your vision to life with precision, quality, and dedication." 
+                           data-es="Con más de 15 años de experiencia, Roco Painting and Services se ha convertido en el socio de confianza de Miami para soluciones de pintura residencial y comercial. Damos vida a tu visión con precisión, calidad y dedicación.">
+                           With over 15 years of experience, Roco Painting and Services has become Miami's trusted partner for residential and commercial painting solutions. We bring your vision to life with precision, quality, and dedication.
+                        </p>
+                    </div>
+                    
+                    <div class="footer-features">
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <span data-en="Licensed & Insured" data-es="Licenciado y Asegurado">Licenciado y Asegurado</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <span data-en="Free Estimates" data-es="Presupuestos Gratis">Presupuestos Gratis</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <span data-en="Satisfaction Guaranteed" data-es="Satisfacción Garantizada">Satisfacción Garantizada</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <span data-en="Premium Materials" data-es="Materiales Premium">Materiales Premium</span>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-service-area">
+                        <h6 data-en="Service Area" data-es="Área de Servicio">Área de Servicio</h6>
+                        <p data-en="Miami-Dade County, Broward County, and surrounding areas in South Florida" 
+                           data-es="Condado de Miami-Dade, Condado de Broward y áreas circundantes en el sur de la Florida">
+                           Miami-Dade County, Broward County, and surrounding areas in South Florida
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h5 data-en="Quick Links" data-es="Enlaces Rápidos">Enlaces Rápidos</h5>
+                        <ul>
+                            <li><a href="#inicio" data-en="Home" data-es="Inicio">Inicio</a></li>
+                            <li><a href="#servicios" data-en="Services" data-es="Servicios">Servicios</a></li>
+                            <li><a href="#catalogo" data-en="Portfolio" data-es="Portafolio">Portafolio</a></li>
+                            <li><a href="#contacto" data-en="Contact" data-es="Contacto">Contacto</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h5 data-en="Legal" data-es="Legal">Legal</h5>
+                        <ul>
+                            <li><a href="#" id="privacyLink" data-en="Privacy Policy" data-es="Política de Privacidad">Política de Privacidad</a></li>
+                            <li><a href="#" id="cookiesLink" data-en="Cookie Policy" data-es="Política de Cookies">Política de Cookies</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>Copyright © 2026 Roco Painting and Services. All rights reserved.</p>
+                <p class="developer-credit">
+                    <span data-en="Design & Development by" data-es="Diseño & Desarrollo por">Diseño & Desarrollo por</span> 
+                    <a href="https://christian-freelance.us/" target="_blank" rel="noopener">Christian Herencia</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/+13057137240?text=Hello,%20I%20am%20interested%20in%20a%20service%20and%20want%20to%20contact%20you.%20|%20Hola,%20interesado%20en%20un%20servicio%20y%20quiero%20contactar%20con%20usted" 
+       class="whatsapp-btn" 
+       target="_blank" 
+       rel="noopener"
+       aria-label="WhatsApp"
+       data-en-message="Hello, I am interested in a service and want to contact you"
+       data-es-message="Hola, interesado en un servicio y quiero contactar con usted">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+
+    <!-- Privacy Modal -->
+    <div class="modal" id="privacyModal">
+        <div class="modal-content">
+            <button class="modal-close" id="privacyClose">&times;</button>
+            <h2 data-en="Privacy Policy" data-es="Política de Privacidad">Política de Privacidad</h2>
+            <div class="modal-body">
+                <p data-en="At Roco Painting and Services, we respect your privacy and are committed to protecting your personal information. This policy outlines how we collect, use, and safeguard your data." data-es="En Roco Painting and Services, respetamos su privacidad y nos comprometemos a proteger su información personal. Esta política describe cómo recopilamos, usamos y protegemos sus datos.">En Roco Painting and Services, respetamos su privacidad y nos comprometemos a proteger su información personal. Esta política describe cómo recopilamos, usamos y protegemos sus datos.</p>
+                <h3 data-en="Information We Collect" data-es="Información que Recopilamos">Información que Recopilamos</h3>
+                <p data-en="We collect information you provide when contacting us, including name, email, phone number, and message content." data-es="Recopilamos información que proporciona al contactarnos, incluyendo nombre, correo electrónico, número de teléfono y contenido del mensaje.">Recopilamos información que proporciona al contactarnos, incluyendo nombre, correo electrónico, número de teléfono y contenido del mensaje.</p>
+                <h3 data-en="How We Use Your Information" data-es="Cómo Usamos su Información">Cómo Usamos su Información</h3>
+                <p data-en="We use your information solely for the purpose of responding to your inquiries and providing our services." data-es="Usamos su información únicamente para responder a sus consultas y proporcionar nuestros servicios.">Usamos su información únicamente para responder a sus consultas y proporcionar nuestros servicios.</p>
+                <h3 data-en="Data Security" data-es="Seguridad de Datos">Seguridad de Datos</h3>
+                <p data-en="We implement appropriate security measures to protect your personal information against unauthorized access or disclosure." data-es="Implementamos medidas de seguridad apropiadas para proteger su información personal contra acceso o divulgación no autorizados.">Implementamos medidas de seguridad apropiadas para proteger su información personal contra acceso o divulgación no autorizados.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cookies Modal -->
+    <div class="modal" id="cookiesModal">
+        <div class="modal-content">
+            <button class="modal-close" id="cookiesClose">&times;</button>
+            <h2 data-en="Cookie Policy" data-es="Política de Cookies">Política de Cookies</h2>
+            <div class="modal-body">
+                <p data-en="This website uses cookies to enhance your browsing experience. Cookies are small files stored on your device that help us understand how you use our site." data-es="Este sitio web utiliza cookies para mejorar su experiencia de navegación. Las cookies son pequeños archivos almacenados en su dispositivo que nos ayudan a comprender cómo usa nuestro sitio.">Este sitio web utiliza cookies para mejorar su experiencia de navegación. Las cookies son pequeños archivos almacenados en su dispositivo que nos ayudan a comprender cómo usa nuestro sitio.</p>
+                <h3 data-en="Types of Cookies We Use" data-es="Tipos de Cookies que Usamos">Tipos de Cookies que Usamos</h3>
+                <p data-en="We use essential cookies for website functionality and analytics cookies to understand visitor behavior." data-es="Usamos cookies esenciales para la funcionalidad del sitio web y cookies analíticas para comprender el comportamiento de los visitantes.">Usamos cookies esenciales para la funcionalidad del sitio web y cookies analíticas para comprender el comportamiento de los visitantes.</p>
+                <h3 data-en="Your Choices" data-es="Sus Opciones">Sus Opciones</h3>
+                <p data-en="You can control cookie settings through your browser. Most browsers allow you to refuse or accept cookies, or to be notified when a cookie is set." data-es="Puede controlar la configuración de cookies a través de su navegador. La mayoría de los navegadores le permiten rechazar o aceptar cookies, o ser notificado cuando se establece una cookie.">Puede controlar la configuración de cookies a través de su navegador. La mayoría de los navegadores le permiten rechazar o aceptar cookies, o ser notificado cuando se establece una cookie.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
